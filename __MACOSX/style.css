@@ -1,0 +1,22 @@
+@import "./css/header.css";
+@import "./css/home.css";
+@import "./css/gbcursos.css";
+@import "./css/depoimento.css";
+@import "./css/formulario.css";
+@import "./css/footer.css";
+
+* {
+    font-family: 'ubuntu';
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}

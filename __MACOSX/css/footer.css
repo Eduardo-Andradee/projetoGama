@@ -1,0 +1,87 @@
+/* footer */
+#footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 207px;
+    left: 0px;
+    bottom: 0;
+    padding: 20px;
+    align-items: center;
+        
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    
+    }
+
+
+footer {   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+/*     width: 90%; */
+    padding: 20px;
+/*     height: 100px; */
+    margin: 0 auto;
+
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+/* LOGO */
+
+.logob {
+    max-width: fit-content;
+/*     width: 100%;
+    height: auto; */
+
+}
+
+/* MENU */
+
+.nav_container {
+    display: flex;
+/*     width: 80%;
+    
+    justify-content: flex-end;
+    margin-right: 5%; */
+
+}
+
+
+/* CURSOS */
+#menu2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 2rem;
+/*     line-height: 2.3rem; */
+}
+
+a {
+    /* text-decoration: none; */
+    color: white;
+    margin: 10px;
+} 
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerbotoes button{
+    background-color: #419488;
+    width: 289px;
+    height: 51px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    margin: 14px 41px 14px 41px;
+    border-radius: 65px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}

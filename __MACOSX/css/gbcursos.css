@@ -1,0 +1,113 @@
+/* bg-cursos */
+/* image 1 (Traced) */
+
+
+#grid_cursos {
+    display: flex;
+    padding: 5%;
+    display: grid;
+    grid-template-areas:
+        "curso1 curso2 curso3"
+        "botao_curso1 botao_curso2 botao_curso3";
+    /*  "imagem1 imagem2 imagem3"
+    "titulo1 titulo2 titulo3"
+    "texto1 texto2 texto3"; */
+    grid-template-columns: 33% 33% 33%;
+    /*     position: relative; */
+    width: 90%;
+    height: auto;
+    /*     left: 0px;
+    top: 829px; */
+
+    background: #F7F7F7;
+}
+
+.titulo_cursos {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+    color: #FF4081;
+}
+
+.texto_cursos {
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 2.0rem;
+    color: black;
+}
+
+#imagem1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 27rem;
+}
+
+#imagem2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 27rem;
+}
+
+#imagem3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 27rem;
+}
+    
+.botoes_cursos {
+    padding: 1rem;
+    margin: 0 auto;
+    width: 20rem;
+    height: 5rem;
+    text-align: center;
+    vertical-align: baseline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerbotoes button{
+    background-color: #419488;
+    width: 289px;
+    height: 51px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    margin: 14px 41px 14px 41px;
+    border-radius: 65px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerbotoes button{
+    background-color: #419488;
+    width: 289px;
+    height: 51px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    margin: 14px 41px 14px 41px;
+    border-radius: 65px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
