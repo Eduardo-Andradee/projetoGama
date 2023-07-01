@@ -90,6 +90,11 @@ top: 350px; */
   border: 2px solid #FF4081;
   border-radius: 62px;
 }
+.banner_button:hover{
+  background-color: #FF4081;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
 
 .banner_button:hover{
   background-color: #FF4081;
